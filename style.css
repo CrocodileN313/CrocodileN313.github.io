@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'mgs';
+    src: url('./Fonts/metag___-webfont.woff2') format('woff2'),
+         url('./Fonts/metag___-webfont.woff') format('woff'),
+         url('./Fonts/METAG___.TTF') format('truetype');
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'mgs', verdana, Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    min-width: 400px;
+    border: 1px solid rgba(52, 100, 235, 0.75);
+    border-radius: 10px;
+    background-color: rgba(52, 100, 235, 0.75);
+   
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('images/ray.jpg');
+    background-size: cover;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+    text-decoration:none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+button {
+    cursor:pointer;
+}
+
+nav button.luffy {
+    list-style: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;    
+    padding: 20px 20px;
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    position:relative;
+    right: 20px;
+    border: 1px solid red;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    box-shadow: 0 5px;
+
+    
+}
+
+nav button.luffy:hover {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/luffyeyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px 58px;
+    position:relative;
+    right: 20px;
+    box-shadow: 0 5px;
+    
+}
+
+nav button.luffy:active {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/luffyeyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px 58px;
+    position:relative;
+    right: 20px;
+    box-shadow: 0 0px;
+    margin-top: 4px;
+    
+}
+
+nav button.zoro {
+    list-style: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;    
+    padding: 20px 20px;
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    position:relative;
+    right: 20px;
+    border: 1px solid red;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    box-shadow: 0 5px;
+
+    
+
+}
+
+nav button.zoro:hover {
+    border: 1px solid white;;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/zoroeyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px, 58px;
+    position:relative;
+    right: 20px;
+    border: 1px solid red;
+    box-shadow: 0px 5px;
+
+}
+
+nav button.zoro:active {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/zoroeyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px 58px;
+    position:relative;
+    right: 20px;
+    box-shadow: 0 0px;
+    margin-top: 4px;
+
+}
+
+nav button.sanji {
+    list-style: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;    
+    padding: 20px 20px;
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    position:relative;
+    right: 20px;
+    border: 1px solid red;
+    background-color: lightgrey;
+    box-shadow: 0 5px;
+
+
+}
+
+nav button.sanji:hover {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/sanjieyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px 58px;
+    position:relative;
+    right: 20px;
+}
+
+nav button.sanji:active {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('images/sanjieyes.png');
+    background-repeat:no-repeat;
+    background-size: 208px 58px;
+    position:relative;
+    right: 20px;
+    box-shadow: 0 0px;
+    margin-top: 4px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: red;
+}
+
+main p {
+    font-size: large;
+    color: red
+}
+
+.sevenwarlords {
+    
+}
+
+.sevenwarlords li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    border: 1px solid rgba(52, 100, 235, 0.75);
+    width: 100px;
+    height: 300px;
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(52, 100, 235, 0.75);
+    color: white;
+    margin-top: 5px;
+}
+
+
+.crocodile:hover {
+    background-image: url(images/Crocodile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
+
+.doflamingo:hover {
+    background-image: url(images/Doflamingo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.boa:hover {
+    background-image: url(images/Boa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.jimbei:hover {
+    background-image: url(images/Jimbei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.moria:hover {
+    background-image: url(images/Moria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.mihawk:hover {
+    background-image: url(images/Mihawk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.kuma:hover {
+    background-image: url(images/Kuma.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.picofme,
+.gohan {
+    height:300px;
+    width:200px;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgba(52, 100, 235);
+}
+
+* {
+    box-sizing: border-box;
+}
